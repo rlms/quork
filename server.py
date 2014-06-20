@@ -2,8 +2,8 @@ import sys, json, socket, select, random
 from operator import attrgetter
 
 from verb_parser import Parser, Verb, Variable, Remainder
-import text_shooter_maps
-Room = text_shooter_maps.Room
+import quork_maps
+Room = quork_maps.Room
 
 if sys.version_info < (3, 0):
     print("""Python version older than 3.0
@@ -516,7 +516,7 @@ def delete_client(client):
     Client.clients.remove(client)
     del Player.players[client.player.name]
 
-game = Game(Map("Beige", text_shooter_maps.beige_rooms, text_shooter_maps.beige_display, "A small, bland map."),
+game = Game(Map("Beige", quork_maps.beige_rooms, quork_maps.beige_display, "A small, bland map."),
             Deathmatch25)
 
 print(socket.gethostbyname(socket.gethostname()))
