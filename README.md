@@ -16,7 +16,7 @@ If someone with a spare server wants to host a few games, that would be great.
 FAQ
 ===
 
-No questions have been wqer we   frequently asked yet.
+No questions have been wqer we  waer frequently asked yet.
 
 Contribution
 ============
