@@ -16,8 +16,14 @@ If someone with a spare server wants to host a few games, that would be great.
 Running a server
 ================
 
-To run a server, download one of the archives (`quork_server.zip` or `quork_server.tar.gz`).
-Extract it somewhere, and run
+To run a server, download one of the archives (`quork_server.zip` or `quork_server.tar.gz`) from a release.
+Extract it, and run `server.py` with Python.
+
+Running a client
+================
+
+To run a client, download `client.py`, and run it with Python.
+I recommend running it in an IDE such as IDLE.
 
 FAQ
 ===
