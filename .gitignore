@@ -1,3 +1,4 @@
-create_zip.py
-create_tar.py
+create_archives.py
 *.pyc
+*.zip
+*.gz
